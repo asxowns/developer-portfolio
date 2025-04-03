@@ -5,8 +5,8 @@
 main {
   width: 1920px;
   height: 100vh;
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
 }
 .sec1 {
   width: 100%;
@@ -39,7 +39,7 @@ main {
   font-family: "NanumBarunGothic", sans-serif;
   color: #fff;
   padding-top: 3em;
-  padding-right: 2em;
+  padding-right: 3em;
   font-size: 18px;
   display: flex;
   align-items: center;
@@ -51,14 +51,14 @@ main {
 }
 .head .head-time h4 span {
   display: block;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .mainText {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -60%);
 }
 .mainText h1 {
   font-family: "Pretendard-Regular";
@@ -68,4 +68,15 @@ main {
 .mainText h1 span {
   display: inline-block;
   font-size: 100px;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.scroll-down p {
+  color: #fff;
+  text-align: center;
 }
